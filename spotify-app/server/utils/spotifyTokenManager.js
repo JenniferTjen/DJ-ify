@@ -1,8 +1,10 @@
 import axios from "axios";
 import qs from "qs";
+import dotenv from "dotenv";
+dotenv.config();
 
-const clientId = "34eec48c51b347a2990dc5bb7bc17fae";
-const clientSecret = "49285cd7269c4473be84e79d316a6526";
+const clientId = process.env.SPOTIFY_CLIENT_ID;
+const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
 
 let accessToken = "";
 let tokenExpiresAt = 0;
