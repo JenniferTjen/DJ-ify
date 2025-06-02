@@ -1,0 +1,9 @@
+.Button {
+    display: flex;
+    height: 40px;
+    width: auto;
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-transform: none !important;
+}
